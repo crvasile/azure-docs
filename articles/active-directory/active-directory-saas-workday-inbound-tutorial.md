@@ -29,7 +29,7 @@ The [Azure Active Directory user provisioning service](active-directory-saas-app
 
 * **Provisioning cloud-only users to Azure Active Directory** - Hybrid users who exist in both Active Directory and Azure Active Directory can be provisioned into the latter using [AAD Connect](connect/active-directory-aadconnect.md). However, users that are cloud-only can be provisioned directly from Workday to Azure Active Directory using the Azure AD user provisioning service.
 
-* **Writeback of email addresses to Workday** - the Azure AD user provisioning service can write selected Azure AD user attributes back to Workday, such as the email address.
+* **Writeback of email addresses to Workday** - the Azure AD user provisioning service can write selected Azure AD user attributes back to Workday, such as the email address. - this paragraph needs to be changed and make it clear that Workday Writeback supports at this point only email address. The part containing "such as email address" points the customers to believing that other attributes are supported as well. 
 
 ### Scenarios covered
 
